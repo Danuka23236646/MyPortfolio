@@ -13,8 +13,8 @@ export default function Navbar() {
 
   return (
     <nav className="bg-white dark:bg-gray-900 shadow sticky top-0 z-10">
-      <div className="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
-        <h1 className="text-2xl font-bold text-blue-600 dark:text-white">Portfolio of Danuka Barnett</h1>
+      <div className="px-4 py-4 flex justify-between items-center">
+        <h1 className="text-2xl font-bold text-blue-600 dark:text-white">Danuka Barnett</h1>
         <div className="flex gap-4 items-center">
           <ul className="flex gap-6 font-medium text-gray-700 dark:text-gray-200">
             <li><a href="#home" className="hover:text-blue-500">Home</a></li>
