@@ -50,7 +50,7 @@ export default function Home() {
         <div className="w-full md:w-1/2 relative flex justify-center md:ml-16">
           <div className="w-82 h-82 rounded-full overflow-hidden border-4 border-purple-600 dark:border-purple-400 shadow-xl ring-4 ring-purple-700/30">
             <img
-              src="https://i.postimg.cc/8zQPw0TD/1746635939219.jpg"
+              src="https://i.postimg.cc/SNs5szsP/IMG-20250507-WA0061-5.jpg"
               alt="Profile"
               className="w-full h-full object-cover"
             />
