@@ -20,7 +20,7 @@ export default function Home() {
           </p>
           <div className="flex items-center gap-4 flex-wrap">
             <a
-              href="\Blue and Gray Simple Professional CV Resume.pdf"
+              href="\CV Resume.pdf"
               download
               className="bg-purple-600 hover:bg-purple-700 transition text-white px-5 py-2.5 rounded-full font-medium flex items-center gap-2"
             >
