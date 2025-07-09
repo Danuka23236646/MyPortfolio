@@ -50,7 +50,7 @@ export default function Contact() {
             <FaMapMarkerAlt className="text-blue-600 text-2xl" />
             <div>
               <h4 className="text-lg font-semibold text-gray-900 dark:text-white">Address</h4>
-              <p className="text-gray-600 dark:text-gray-300">Colombo, Battaramulla, Sri Lanka</p>
+              <p className="text-gray-600 dark:text-gray-300">Battaramulla, Colombo, Sri Lanka</p>
             </div>
           </div>
 

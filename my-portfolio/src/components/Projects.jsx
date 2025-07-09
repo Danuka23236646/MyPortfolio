@@ -1,4 +1,6 @@
-import { FaExternalLinkAlt, FaCode } from 'react-icons/fa';
+
+import { FaExternalLinkAlt, FaGithub } from 'react-icons/fa'; // update this import
+
 
 const projects = [
   {
@@ -9,37 +11,37 @@ const projects = [
     type: "Full Stack",
     tech: ["React", "Node.js", "MongoDB", "Express", "Tailwind CSS"],
     liveDemo: "https://your-live-link.com",
-    codeLink: "https://github.com/your-repo",
+    codeLink: "https://github.com/Danuka23236646/Ceylon_Flavours-Restaurant-Management-System--MERN",
   },
   {
-    title: "Strss management Application",
+    title: "Stress Management Application",
     description:
       "designed to help users manage stress, enhance mindfulness, and support their overall mental well-being. The app offers personalized and science-based strategies to empower individuals in developing long-term resilience and inner peace.",
-    image: "/images/portfolio.png",
+    image: "/images/stress.png",
     type: "Mobile",
-    tech: ["React", "Tailwind CSS", "EmailJS", "JavaScript"],
+    tech: ["Java", "Kotlin"],
     liveDemo: "https://your-portfolio.com",
-    codeLink: "https://github.com/your-portfolio",
+    codeLink: "https://github.com/Danuka23236646/Stress_Management_Application-Kotlin",
   },
   {
     title: "Money Tracker Mobile Application",
     description:
       "Money Tracker is a personal finance management mobile app developed using Kotlin + Java for Android. It helps users track their income, expenses, set budgets, and stay financially organized — all offline, with smart local storage using SharedPreferences.",
-    image: "/images/money-tracker.png",
+    image: "/images/Money.jpg",
     type: "Mobile",
     tech: ["Kotlin", "Java", "SharedPreferences"],
     liveDemo: "https://your-link.com",
-    codeLink: "https://github.com/your-repo",
+    codeLink: "https://github.com/Danuka23236646/FinancialTracker-Kotlin",
   },
   {
-    title: "Examination management system",
+    title: "Examination Management System",
     description:
       "This is a comprehensive Online Examination Management System built using Java and MySQL Workbench. The system handles exam scheduling, question creation, student participation, payments, and ticket-based issue reporting",
-    image: "/images/lotus-award.png",
+    image: "/images/exam.jpg",
     type: "Full Stack",
     tech: ["PHP", "MySQL", "HTML", "JavaScript", "CSS"],
     liveDemo: "https://your-link.com",
-    codeLink: "https://github.com/your-repo",
+    codeLink: "https://github.com/Danuka23236646/Online_Examination_Management_System-JAVA",
   },
 ];
 
@@ -100,9 +102,9 @@ export default function Projects() {
                     href={project.codeLink}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="flex items-center gap-1 text-sm text-gray-700 dark:text-white hover:underline"
+                    className="flex items-center gap-1 text-sm text-gray-700 dark:text-white hover:text-gray-900 dark:hover:text-gray-300 transition"
                   >
-                    <FaCode /> Code
+                    <FaGithub className="text-lg" /> Code
                   </a>
                 </div>
               </div>
