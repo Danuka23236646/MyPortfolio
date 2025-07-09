@@ -4,7 +4,7 @@ const projects = [
   {
     title: "Ceylon Flavours - Restaurant Management",
     description:
-      "An end-to-end restaurant management system featuring online ordering, menu browsing, and seamless delivery processing.",
+      "Ceylon Flavours is a full-stack restaurant management system developed as a group project using the MERN stack — MongoDB, Express.js, React.js, and Node.js.",
     image: "/images/ceylon-flavours.png",
     type: "Full Stack",
     tech: ["React", "Node.js", "MongoDB", "Express", "Tailwind CSS"],
@@ -12,11 +12,11 @@ const projects = [
     codeLink: "https://github.com/your-repo",
   },
   {
-    title: "My Portfolio Website",
+    title: "Strss management Application",
     description:
-      "A personal portfolio showcasing projects, skills, and contact options. Built with React and styled with Tailwind CSS.",
+      "designed to help users manage stress, enhance mindfulness, and support their overall mental well-being. The app offers personalized and science-based strategies to empower individuals in developing long-term resilience and inner peace.",
     image: "/images/portfolio.png",
-    type: "Frontend",
+    type: "Mobile",
     tech: ["React", "Tailwind CSS", "EmailJS", "JavaScript"],
     liveDemo: "https://your-portfolio.com",
     codeLink: "https://github.com/your-portfolio",
@@ -24,7 +24,7 @@ const projects = [
   {
     title: "Money Tracker Mobile Application",
     description:
-      "A finance tracking app built using Kotlin and Java for Android. Manages income, expenses and savings.",
+      "Money Tracker is a personal finance management mobile app developed using Kotlin + Java for Android. It helps users track their income, expenses, set budgets, and stay financially organized — all offline, with smart local storage using SharedPreferences.",
     image: "/images/money-tracker.png",
     type: "Mobile",
     tech: ["Kotlin", "Java", "SharedPreferences"],
@@ -32,9 +32,9 @@ const projects = [
     codeLink: "https://github.com/your-repo",
   },
   {
-    title: "Lotus Award Ceremony",
+    title: "Examination management system",
     description:
-      "A dynamic web app for award events built using PHP, HTML, JS, and MySQL.",
+      "This is a comprehensive Online Examination Management System built using Java and MySQL Workbench. The system handles exam scheduling, question creation, student participation, payments, and ticket-based issue reporting",
     image: "/images/lotus-award.png",
     type: "Full Stack",
     tech: ["PHP", "MySQL", "HTML", "JavaScript", "CSS"],
